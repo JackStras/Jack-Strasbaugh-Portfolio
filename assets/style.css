@@ -35,3 +35,27 @@ a {
 :visited {
     color: var(--grey);
 }
+
+main{
+    display: flex;
+    color: var(--grey);
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+section {
+    flex-wrap: wrap;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+#img1 {
+    height: 533px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
