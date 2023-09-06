@@ -10,7 +10,7 @@ body {
     background-color: #0C0032;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     color: var(--grey);
@@ -21,10 +21,14 @@ header h1 {
     margin-left: 10px;
 }
 
-header li {
+li {
     display: inline;
     font-size: 25px;
-    margin-right: 11px;;
+    margin-right: 11px;
+}
+
+footer li {
+    margin-right: 30px;
 }
 
 a {
@@ -56,9 +60,8 @@ section {
 }
 
 #img1 {
-    height: 800px;
-    width: 1800px;
-    max-width: 100%;
+    height: 1000px;
+    width: 2200px;
     margin: auto;
     margin-top: 20px;
 }
@@ -68,4 +71,8 @@ section {
     flex-wrap: wrap;
     align-content: center;
     color: var(--grey);
+}
+
+#contact {
+    margin-top: 80px;
 }
