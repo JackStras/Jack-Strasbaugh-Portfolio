@@ -6,7 +6,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-
 body {
     background-color: #0C0032;
 }
@@ -25,37 +24,48 @@ header h1 {
 header li {
     display: inline;
     font-size: 25px;
-    margin-right: 11px;
+    margin-right: 11px;;
 }
 
 a {
     text-decoration: none;
 }
 
-:visited {
-    color: var(--grey);
-}
-
-main{
-    display: flex;
+:visited, :link {
     color: var(--grey);
 }
 
 img {
     height: 400px;
     width: 400px;
+    max-width: 100%;
+}
+
+img:hover {
+    box-shadow: 4px 4px 10px;
 }
 
 section {
     flex-wrap: wrap;
     text-align: center;
+    margin: auto;
     height: 400px;
     width: 400px;
+    max-width: 100%;
+    margin-top: 80px;
 }
 
 #img1 {
-    height: 533px;
-    width: 800px;
+    height: 800px;
+    width: 1800px;
+    max-width: 100%;
     margin: auto;
     margin-top: 20px;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: var(--grey);
 }
